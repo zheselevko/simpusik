@@ -1,0 +1,93 @@
+/* PRINT VERSION */
+body {
+	min-width:593px;
+	min-height:0;
+}
+.product-print {
+	margin:0 auto;
+	width:573px;
+	padding:0 10px;
+	box-sizing:content-box;
+	&__title {
+		text-transform:uppercase;
+		text-align:center;
+		padding:17px 0;
+		margin:0 0 19px;
+		border-bottom:1px solid #EDECEC;
+	}
+	&__meta {
+		padding:0 0 21px;
+		&:after {
+			content:'';
+			clear:both;
+			display:table;
+		}
+		&-left {
+			float:left;
+			width:50%;
+		}
+		&-right {
+			float:right;
+			width:50%;
+			text-align:right;
+			padding:8px 0 0;
+		}
+	}
+	&__image {
+		margin:0 0 16px;
+		img {
+			width:100%;
+			max-width:100%;
+			border-radius:5px;
+			display:block;
+		}
+	}
+	&__phones {
+		text-align:center;
+	}
+}
+.product-full-main__top .tabs .tab a.active {
+	color:#4469a1;
+	&:before {
+		display:none !important;
+	}
+}
+.product-full-actions__prices-title {
+	display:inline-block;
+	margin-right:12px;
+}
+.product__price.product__price--large {
+	display:inline-block;
+	font-size:24px;
+	position:relative;
+	top:2px;
+}
+.product-availability {
+	display:inline-block;
+}
+.product-full-index {
+	background:none;
+	height:auto;
+	font-size:14px;
+	line-height:inherit;
+	padding:0 0 0 37px;
+	&:before {
+		display:none;
+	}
+}
+.product-full-main__content {
+	padding:29px 34px 15px;
+}
+.product-full-actions__phones {
+	padding:28px 40px 29px 15px;
+}
+.characteristics-list__left {
+	width:47%;
+}
+.characteristics-list__right {
+	width:53%;
+}
+.delivery-item {
+	display:none !important;
+}
+/* PRINT VERSION END */

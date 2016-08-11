@@ -1,0 +1,114 @@
+//----------------------------------------------------//
+// Flip Clock										  //
+//----------------------------------------------------//
+.flip-clock-divider {
+	float:none;
+	width:10px;
+	.flip-clock-label {
+		display:none;
+	}
+}
+.flip-clock-wrapper {
+	margin:0;
+	ul {
+		float:none;
+		display:inline-block;
+		font-weight:400;
+		width:66px;
+		height:100px;
+		line-height:100px;
+		margin:0 1px;
+		li {
+			line-height:105px;
+			a {
+				div {
+					div {
+						&.inn {
+							background:#4A4A4A;
+							font-size:90px;
+						}
+					}
+					&.up {
+						&:after {
+							height:1px;
+							top:49px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.flip {
+		box-shadow:none;
+	}
+}
+.flip-clock-dot {
+	width:3px;
+	height:4px;
+	box-shadow:1px 1px 0 rgba(0, 0, 0, 0.5);
+	border-radius:0;
+	background:#3B3B3B;
+	left:4px;
+	&.top {
+		top:42px;
+	}
+	&.bottom {
+		bottom:42px;
+	}
+}
+
+//----------------------------------------------------//
+// BxSlider										  	  //
+//----------------------------------------------------//
+.bx-wrapper {
+	margin:0;
+}
+.bx-wrapper .bx-viewport {
+	border:0;
+	box-shadow:none;
+	background:none;
+	left:auto;
+}
+.bx-wrapper .bx-pager {
+	padding:0;
+	bottom:0;
+	width:auto;
+	left:20px;
+	right:20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	width:10px;
+	height:10px;
+	background:$gray12_color;
+	&.active {
+		background:$orange2_color;
+	}
+}
+.bx-wrapper .bx-loading {
+	background:none;
+}
+
+//----------------------------------------------------//
+// Scrollpane										  //
+//----------------------------------------------------//
+.scrollpane-horizontal{
+	width: 100%;
+	overflow: hidden;
+	.jspHorizontalBar{
+		height:5px;
+		background:none;
+	}
+	.jspTrack{
+		background:$gray12_color;
+		height:100%;
+		border-radius:5px;
+	}
+	.jspDrag{
+		background:$gray20_color;
+		height:100%;
+		border-radius:5px;
+	}
+}
+
+
+

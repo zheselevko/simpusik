@@ -1,0 +1,81 @@
+//----------------------------------------------------//
+// Garniture                                          //
+//----------------------------------------------------//
+
+
+// Garniture => helveticaneuecyr
+//--------------------------------------------------// 
+/* Helveticaneuecyr Roman */
+@font-face {
+    font-family: 'helveticaneuecyr';
+    src: url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.eot');
+    src: url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.woff2') format('woff2'),
+         url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.woff') format('woff'),
+         url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.ttf') format('truetype'),
+         url('../font/helveticaneuecyr/roman/helveticaneuecyr-roman.svg#helveticaneuecyrroman') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Helveticaneuecyr Medium */
+@font-face {
+    font-family: 'helveticaneuecyr';
+    src: url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.eot');
+    src: url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.woff2') format('woff2'),
+         url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.woff') format('woff'),
+         url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.ttf') format('truetype'),
+         url('../font/helveticaneuecyr/medium/helveticaneuecyr-medium.svg#helveticaneuecyrmedium') format('svg');
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Helveticaneuecyr Bold */
+@font-face {
+    font-family: 'helveticaneuecyr';
+    src: url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.eot');
+    src: url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.woff2') format('woff2'),
+         url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.woff') format('woff'),
+         url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.ttf') format('truetype'),
+         url('../font/helveticaneuecyr/bold/helveticaneuecyr-bold.svg#helveticaneuecyrbold') format('svg');
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Helveticaneuecyr Italic */
+@font-face {
+    font-family: 'helveticaneuecyr';
+    src: url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.eot');
+    src: url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.woff2') format('woff2'),
+         url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.woff') format('woff'),
+         url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.ttf') format('truetype'),
+         url('../font/helveticaneuecyr/italic/helveticaneuecyr-italic.svg#helveticaneuecyritalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+// Garniture => Ruble
+//--------------------------------------------------// 
+/* Ruble */
+@font-face {
+	font-family: 'ruble';
+	src: url('../font/ruble/ruble.eot');
+	src: url('../font/ruble/ruble.eot?#iefix') format('embedded-opentype'),
+		url('../font/ruble/ruble.woff') format('woff'),
+		url('../font/ruble/ruble.ttf') format('truetype'),
+		url('../font/ruble/ruble.svg#ruble') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
